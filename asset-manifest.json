@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ProjectGarden/static/css/main.42f0cfd7.css",
+    "main.js": "/ProjectGarden/static/js/main.644862a9.js",
+    "static/media/img.png": "/ProjectGarden/static/media/img.0ec975833f8929e9b88c.png",
+    "static/media/404-Page.svg": "/ProjectGarden/static/media/404-Page.76f2e6078ef51ae7ecca3db8c20bdc9a.svg",
+    "static/media/gnome.png": "/ProjectGarden/static/media/gnome.d7aeb6a7be57f95972d3.png",
+    "static/media/logo.svg": "/ProjectGarden/static/media/logo.26c5e2555d7712985c7720286efa26e5.svg",
+    "static/media/cart_empty.svg": "/ProjectGarden/static/media/cart_empty.943dcbe8a9ba277741e7a821e9506ebc.svg",
+    "static/media/basket_icon.svg": "/ProjectGarden/static/media/basket_icon.88c924444d7c741f85eacaad151ea776.svg",
+    "index.html": "/ProjectGarden/index.html",
+    "static/media/cross.svg": "/ProjectGarden/static/media/cross.c04b75fbc6b2a398782f3ca6525409c2.svg",
+    "main.42f0cfd7.css.map": "/ProjectGarden/static/css/main.42f0cfd7.css.map",
+    "main.644862a9.js.map": "/ProjectGarden/static/js/main.644862a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42f0cfd7.css",
+    "static/js/main.644862a9.js"
+  ]
+}
