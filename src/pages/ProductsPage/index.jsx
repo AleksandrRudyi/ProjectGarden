@@ -6,7 +6,7 @@ import { useLocation, useParams } from 'react-router-dom';
 import Filter from '../../components/Filter/'
 import { useEffect } from 'react';
 import { resetFilter } from '../../store/slices/productsSlice';
-import MobilAccordion from '../../components/MobilAccordion'
+
 
 const ProductsPage = () => {
     const { categoryTitle, categoryID, sales } = useParams()
@@ -52,11 +52,6 @@ const ProductsPage = () => {
             <h1 className={s.title}>{titleRender()}</h1>
             <div className={s.hidden}>
                 <Filter />
-            </div>
-            <div className={s.mob_filter}>
-                <MobilAccordion title={"Filters"}>
-                    {<Filter/>}
-                </MobilAccordion>
             </div>
             <div className={s.products_container}>
                 { 

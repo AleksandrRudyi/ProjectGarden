@@ -5,7 +5,7 @@ import { Badge } from '@mui/material'
 import { useSelector } from 'react-redux';
 import logo from './logo.svg'
 import icon from './basket_icon.svg'
-import ModalMenu from '../ModalMenu';
+
 
 const Header = () => {
     const [menuActive, setMenuActiveMenu] = useState(false)
@@ -45,7 +45,6 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            <ModalMenu active={menuActive} setActive={setMenuActiveMenu}/>
         </header>
 
     );

@@ -4,7 +4,6 @@ import { useParams } from 'react-router-dom';
 import s from './style.module.css'
 import { addToBasket } from '../../store/slices/basketSlice';
 import { fetchSingleProduct } from '../../store/slices/singleProductSlice';
-import MobilAccordion from '../../components/MobilAccordion';
 import NotFoundPage from '../NotFoundPage';
 
 
@@ -66,11 +65,6 @@ const SingleProductPage = () => {
                         <div className={s.product_descr}>
                             <p className={s.subtitle}>Description</p>
                              <p className={s.text}>{description}</p>
-                        </div>
-                        <div className={s.mob_descr}>
-                            <MobilAccordion title={'Description'}>
-                                {description}
-                            </MobilAccordion>
                         </div>
                     </div>
                 </div>
